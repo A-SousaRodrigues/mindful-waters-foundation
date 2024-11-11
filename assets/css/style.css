@@ -15,7 +15,7 @@
 /*Global Styles*/
 body {
     font-family: var(--primary-font);
-
+    padding-top: 91.912px;
 }
 
 h1,
@@ -40,4 +40,30 @@ h3 {
 
 #logo{
     border-radius: 50%;
+}
+
+/*Header*/
+#hero {
+    height: 400px;
+    background: url(../images/hero.webp) no-repeat center center/cover;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 325px) {
+    #hero h1 {
+        font-size: 1.25rem;
+    }
+    
+    #hero .lead {
+        font-size: 1.125rem;
+    }
+    
+}
+
+@media screen and (min-width: 425px) {
+    body {
+        padding-top: 52.313px;
+    }
+    
 }
