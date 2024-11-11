@@ -15,14 +15,29 @@
 /*Global Styles*/
 body {
     font-family: var(--primary-font);
-    
+
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
 
 .sub-heading-color {
     color: var(--secondary-color);
+}
+
+/*Navbar*/
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--highlight-color) !important;
+}
+
+#logo{
+    border-radius: 50%;
 }
