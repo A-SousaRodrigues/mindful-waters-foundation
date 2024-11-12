@@ -60,17 +60,58 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
                 <div>
-                    <h1 class="custom-font">Welcome to a Place of Peace and Support</h1>
+                    <h1>Welcome to a Place of Peace and Support</h1>
                     <p class="lead">Empowering you on your mental wellness journey with resources, guidance, and
                         community support.</p>
                     <p>Whether you're seeking understanding, resources, or a community that cares, we're here to help
                         you navigate the path to mental wellness. Explore our guides, connect with compassionate
                         professionals, and find a calm space to reflect and heal.</p>
-                    <a href="#" class="btn btn-primary">Get help</a>
+                    <button type="button" class="btn btn-primary sharp-corners custom-button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Get help</button>
                 </div>
             </div>
         </div>
     </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content sharp-corners">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Seek Professional Help</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>No matter where you are on your mental health journey, reaching out for support can make a world
+                        of difference. You don’t have to navigate this alone.
+                    </p>
+                    <form class="row g-3">
+                        <div class="col-lg-6">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="col-12 mb-4">
+                            <button type="submit" class="btn btn-primary custom-button">
+                                Sign up!
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Bootsrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
