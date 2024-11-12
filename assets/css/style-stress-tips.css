@@ -19,31 +19,31 @@ blockquote {
 
 /*Manage stress section*/
 .card-bg-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/music.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/music.webp) no-repeat center center/cover;
     color: white;
 }
 
 .card-bg-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/walk.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/walk.webp) no-repeat center center/cover;
     color: white;
 }
 
 .card-bg-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/breathing.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/breathing.webp) no-repeat center center/cover;
     color: white;
 }
 
 .card-bg-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/journal.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/journal.webp) no-repeat center center/cover;
     color: white;
 }
 
 .card-bg-5 {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/hot-drink.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/hot-drink.webp) no-repeat center center/cover;
     color: white;
 }
 
 .card-bg-6 {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/compassion.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/compassion.webp) no-repeat center center/cover;
     color: white;
 }
