@@ -49,6 +49,11 @@ h3 {
     background: url(../images/hero.webp) no-repeat center center/cover;
 }
 
+/*About section*/
+#about-image {
+    border-radius: 50%;
+}
+
 /*Media Queries*/
 @media screen and (max-width: 325px) {
     #hero h1 {
