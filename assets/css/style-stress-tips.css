@@ -1,0 +1,18 @@
+/*Header*/
+blockquote {
+    font-family: var(--quote-font);
+    font-size: 2rem !important; 
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+    {
+    filter: invert(100%);
+}
