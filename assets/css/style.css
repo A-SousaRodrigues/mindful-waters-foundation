@@ -54,6 +54,11 @@ h3 {
     border-radius: 50%;
 }
 
+/*Footer*/
+#footer {
+    background-color: var(--highlight-color);
+}
+
 /*Media Queries*/
 @media screen and (max-width: 325px) {
     #hero h1 {
