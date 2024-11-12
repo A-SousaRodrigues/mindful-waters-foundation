@@ -93,20 +93,67 @@
                     <p>No matter where you are on your mental health journey, reaching out for support can make a world
                         of difference. You don’t have to navigate this alone.
                     </p>
-                    <form class="row g-3">
-                        <div class="col-lg-6">
-                            <label for="inputName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="inputName">
+                    <form id="seekHelpForm" class="row g-3">
+                        <!-- Full Name -->
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" name="fullName"
+                                placeholder="Enter your name" required>
                         </div>
-                        <div class="col-lg-6">
-                            <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail">
+                        <!-- Email Address -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Your email address" required>
                         </div>
-                        <div class="col-12 mb-4">
-                            <button type="submit" class="btn btn-primary custom-button">
-                                Sign up!
-                            </button>
+                        <!-- Phone Number -->
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number (Optional)</label>
+                            <input type="tel" class="form-control" id="phone" name="phone"
+                                placeholder="Your phone number (optional)">
                         </div>
+                        <!-- Preferred Contact Method -->
+                        <div class="mb-3">
+                            <label for="contactMethod" class="form-label">Preferred Contact Method</label>
+                            <select class="form-select" id="contactMethod" name="contactMethod" required>
+                                <option value="">Select...</option>
+                                <option value="email">Email</option>
+                                <option value="phone">Phone</option>
+                                <option value="noPreference">No Preference</option>
+                            </select>
+                        </div>
+                        <!-- Primary Concern -->
+                        <div class="mb-3">
+                            <label for="primaryConcern" class="form-label">Primary Concern or Reason for Seeking
+                                Help</label>
+                            <select class="form-select" id="primaryConcern" name="primaryConcern" required>
+                                <option value="">Select...</option>
+                                <option value="anxiety">Anxiety</option>
+                                <option value="depression">Depression</option>
+                                <option value="stress">Stress</option>
+                                <option value="trauma">Trauma</option>
+                                <option value="relationshipIssues">Relationship Issues</option>
+                                <option value="addiction">Addiction</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <!-- Additional Notes -->
+                        <div class="mb-3">
+                            <label for="additionalInfo" class="form-label">Additional Notes or Information
+                                (Optional)</label>
+                            <textarea class="form-control" id="additionalInfo" name="additionalInfo" rows="3"
+                                placeholder="Anything else you'd like us to know"></textarea>
+                        </div>
+                        <!-- Privacy Consent Checkbox -->
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="privacyConsent" name="privacyConsent"
+                                required>
+                            <label class="form-check-label" for="privacyConsent">I have read the <a href="">Privacy Agreement</a>
+                                and consent to sharing this information
+                                for the purpose of connecting me with mental health resources.</label>
+                        </div>
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary w-100">Get Connected with Support</button>
                     </form>
                 </div>
             </div>
