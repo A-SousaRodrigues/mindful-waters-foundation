@@ -196,21 +196,45 @@ Buttons were customised to their specific role and page layout. This is so that 
 
 ### Technologies and Languages
 
+HTML5
+CSS3
+GitHub
+Gitpod
 
 ### Libraries and Frameworks
 
-
+Bootstrap 5.3.3
+Font Awesome
+Google Fonts
 
 ### Tools and Programs
 
-
+Balsamiq
+Squoosh
+ChatGPT
+MS CoPilot
+GitHub CoPilot
 
 <hr>
 <p align="right"><a href="#mindful-waters-foundation>Back To Top</a></p>
 
 ## Deployment
 
+This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies were included when opening within the designated workspace on the [Gitopod IDE](https://www.gitpod.io/).
 
+Setup a repo using this method and template:
+1. Login to your GitHub profile.
+2. Navigate to the Code Institute Full Template
+3. Click the dropdown for 'Use this template' and select "Create a new repository"
+4. Generate the necessary name and description for your repo and click 'Create repository from template'
+5. Navigate to the new repo and click the green 'Open' button with the Gitpod logo<br>
+**IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
+6. You can now work on your repository within the Code Institute Gitpod IDE workspace
+
+Once the project repo is created, an early deployment for the live project should performed.<br>
+This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
+
+Additional information on the deployment process can be found on the official [GitHub Docs](https://docs.github.com/en/pages/quickstart)
 
 
 <hr>
