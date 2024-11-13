@@ -91,6 +91,9 @@ a {
     background-color: var(--header-color);
 }
 
+#footer a {
+    font-size: 1.5rem;
+}
 /*Media Queries*/
 @media screen and (max-width: 325px) {
     #hero h1 {
