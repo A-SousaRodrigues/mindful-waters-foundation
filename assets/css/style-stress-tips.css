@@ -1,5 +1,11 @@
 /*Header*/
+
+.card-body {
+    background: #fcfaeb;
+}
+
 blockquote {
+    background: url(../images/paper.webp) no-repeat center center/cover; ;
     font-family: var(--quote-font);
     font-size: 2rem !important;
 }
@@ -12,7 +18,7 @@ blockquote {
 .carousel-control-next,
 .carousel-control-prev
 
-/*, .carousel-indicators */
+/* .carousel-indicators */
     {
     filter: invert(100%);
 }
