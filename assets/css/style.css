@@ -3,10 +3,13 @@
 
 /*CSS Variables*/
 :root {
-    --primary-color: #64e6d0;
-    --secondary-color: #b9ccb7;
-    --highlight-color: #FAD4C0;
-    --info-color: #D8CFE8;
+    --primary-color: #2C3E50;
+    --secondary-color: #4D4D4D;
+    --header-color: #b9ccb7;
+    --background-color: #F9FAFB;
+    --primary-button-color: #B39DDB;
+    --secondary-button-color: #D4A5A5;
+    --link-color: #5E548E;
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Lato", sans-serif;
     --quote-font: "Caveat", cursive;
@@ -15,19 +18,48 @@
 /*Global Styles*/
 body {
     font-family: var(--primary-font);
+    color: var(--primary-color);
     padding-top: 91.912px;
-    background-color: #fcfaeb;
+    background-color: var(--background-color);
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
-.sub-heading-color {
-    color: var(--secondary-color);
+a {
+    color: var(--link-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-button-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #9575CD ;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-button-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #C48E8E;
 }
 
 /*Navbar*/
@@ -36,7 +68,7 @@ h3 {
     top: 0;
     left: 0;
     z-index: 1000;
-    background-color: var(--highlight-color) !important;
+    background-color: var(--header-color) !important;
 }
 
 #logo{
@@ -56,7 +88,7 @@ h3 {
 
 /*Footer*/
 #footer {
-    background-color: var(--highlight-color);
+    background-color: var(--header-color);
 }
 
 /*Media Queries*/
