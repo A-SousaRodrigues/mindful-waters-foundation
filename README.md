@@ -103,13 +103,29 @@ The site owner wants to create a welcoming webpage that provides basic mental he
 
 ### Main Palette
 
+The colour scheme should create a calm environment and have easy readability in order to reduce cognitive load for the user. The following colours are what I landed on:
 
+- Title and subtitles: '#4D4D4D'
+- Body text: '#2C3E50'
+- Header and footer: '#b9ccb';
+- Background: '#F9FAFB'
+- Primary button: '#B39DDB'
+- Secondary button: '#D4A5A5'
+- Links: '#5E548E'
 
+![Color Palette](/documentation/images/pallete.png)
 <hr>
 <p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
 
 ## Fonts
 
+Similar to colour, the font should be easy to read. Three differnt fonts were needed; titles, body, and quotes. These were implemnted through [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
+
+[Lato](https://fonts.google.com/specimen/Lato) was used for headings.
+
+[Roboto](https://fonts.google.com/specimen/Roboto) was used for body text.
+
+[Caveat](https://fonts.google.com/specimen/Caveat) was used for quotes to add some flourish.
 
 
 <hr>
@@ -134,7 +150,7 @@ The site owner wants to create a welcoming webpage that provides basic mental he
 
 ## Imagery
 
-
+I wanted the hero image to be light and relaxing, to ease the user into the website. Therfore opted for an AI generated image. For the background images on cards I decided to use royalty free photos relating to the specific card as overuse of AI images can look tacky and unapealing. 
 
 <hr>
 <p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
@@ -159,11 +175,11 @@ The site owner wants to create a welcoming webpage that provides basic mental he
 
 #### Footer
 
-
+For the footer I used bootsrap utilities so that it sticks to the bottom of the page. The footer includes contact information as well as links to social media platforms and the privacy agreement.
 
 #### Links and Buttons
 
-
+Buttons were customised to their specific role and page layout. This is so that they stand out from their backgrounds and provide uniform function based on design. This was implemnted by customising the btn-primary and btn-secondary bootsrap classes.
 
 <hr>
 <p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
