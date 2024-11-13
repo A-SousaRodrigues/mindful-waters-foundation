@@ -1,18 +1,13 @@
 /*Header*/
-
-.card-body {
-    background: #fcfaeb;
-}
-
-blockquote {
-    background: url(../images/paper.webp) no-repeat center center/cover; ;
-    font-family: var(--quote-font);
-    font-size: 2rem !important;
-}
-
 .carousel-container {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.quote{
+    background: url(../images/paper.webp) no-repeat center center/cover; ;
+    font-family: var(--quote-font);
+    font-size: 2rem !important;
 }
 
 .carousel-control-next,
