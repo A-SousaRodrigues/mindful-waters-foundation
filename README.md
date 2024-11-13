@@ -1,6 +1,6 @@
 # Mindful Waters Foundation
 
-![Mindful Waters Foundation - Project Banner]()
+![Mindful Waters Foundation - Project Banner](/documentation/images/banner.png)
 
 
 <p align="center">
@@ -136,14 +136,16 @@ Similar to colour, the font should be easy to read. Three differnt fonts were ne
  
 
 **Mobile Wireframe**
-![Mobile Wireframe]()
+
+![Mobile Wireframe](/documentation/images/wireframe-mobile.png)
 
 **Tablet Wireframe**
-![Tablet Wireframe]()
+
+![Tablet Wireframe](/documentation/images/wireframe-tablet.png)
 
 **Desktop Wireframes**
-![Desktop Wireframe 1]()
-![Desktop Wireframe 2]()
+
+![Desktop Wireframe 1](/documentation/images/wireframe-web.png)
 
 <hr>
 <p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
@@ -159,34 +161,60 @@ I wanted the hero image to be light and relaxing, to ease the user into the webs
 
 ### General Features
 
-
-
 #### Navigation and Hero Section
 
+I decided to make a calm and relaxing hero section, using an ai image for the background. This section features a CTA button that opens a modal form to reach out for help.
 
+The navigation bar is a Bootstrap component that allows for easy navigation around the site using a familiar method for a positive user experience.
+
+![Header](/documentation/images/header.png)
 
 #### Bootstrap Cards
 
+Bootsrap cards were used for the stress tips section, to layout quick actionable tips. Each card has a learn more button should link to the specific section on the additional resources page.
 
+![Bootstrap Cards](/documentation/images/card.png)
 
-#### Policies Section
+#### Bootsrap accordian
 
+The bootstrap accordian was used for the common mental health issues page so that the user wouldn't be bombarded with text. It allows the user to seek the specific topic they wouldlike to read more about and access the content for that topic step by step.
 
+![Bootstrap Accordians](/documentation/images/accordian.png)
+
+#### Bootstrap Carousel
+
+I used a bootstrap carousel to display motivational quotes. A background image was added to make it more visually appealing. Furthermore, auto-slide was turned off to reduce cognitive load, allowing the user to go through the quotes at their own pace.
+
+![Bootstrap Carousel](/documentation/images/carousel.png)
+
+#### Privacy agreement
+
+I created an additional web page designated for the privacy agreement so that users can feelsafe about the processing and holding of their data.
+
+![Privacy Page](/documentation/images/privacy.png)
 
 #### Footer
 
 For the footer I used bootsrap utilities so that it sticks to the bottom of the page. The footer includes contact information as well as links to social media platforms and the privacy agreement.
 
+![Footer](/documentation/images/footer.png)
+
 #### Links and Buttons
 
 Buttons were customised to their specific role and page layout. This is so that they stand out from their backgrounds and provide uniform function based on design. This was implemnted by customising the btn-primary and btn-secondary bootsrap classes.
+
+#### Future development
+
+With more time I would create the additional resources page and link it to the appropriate buttons. This page would go into more details about how to manage stress, with embeded videos to provide user interaction.
 
 <hr>
 <p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
 
 ### Responsive Design
 
+This project was made responsive by utilising bootstrap's grid system as well as a couplemedia queeries.
 
+![Responsive Design](/documentation/images/responsive.png)
 
 <hr>
 <p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
@@ -212,6 +240,9 @@ Buttons were customised to their specific role and page layout. This is so that 
 - Balsamiq
 - Squoosh
 - ChatGPT
+- MS CoPilot
+- GitHub CoPilot
+- Microsoft Designer
 
 <hr>
 <p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
@@ -282,17 +313,12 @@ Privacy page:
 ### Code
 
 Project and primary learning supplied by [Code Institute](https://codeinstitute.net/ie/)<br>
-Supplemental learning resources directly used / referenced within the project:
-
-
+Learning and parts of code supplied by Github Copilot.
 
 ### Media
 
-
-
-### Acknowledgements
-
-
+All photos aquired from [Unsplash](https://unsplash.com/).
+Hero image and favicon made by Microsoft Copilot.
 
 <hr>
 <p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
