@@ -1,0 +1,55 @@
+/*Common mnetalhealth issues section*/
+.card-bg-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/depression.webp) no-repeat center center/cover;
+    color: white;
+}
+
+.card-bg-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/anxiety.webp) no-repeat center center/cover;
+    color: white;
+}
+
+.card-bg-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/eating-diorder.webp) no-repeat center center/cover;
+    color: white;
+}
+
+.card-bg-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/trauma.webp) no-repeat center center/cover;
+    color: white;
+}
+
+.card-bg-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/relationship.webp) no-repeat center center/cover;
+    color: white;
+}
+
+.card-bg-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/addiction.webp) no-repeat center center/cover;
+    color: white;
+}
+
+.accordion-item {
+    background-color: transparent; /* Make accordion items transparent */
+    border: none; /* Remove border */
+}
+
+.accordion-header {
+    background-color: transparent; /* Make accordion headers transparent */
+}
+
+.accordion-button {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background for button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly more opaque when expanded */
+    color: white; /* Text color */
+}
+
+.accordion-body {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for body */
+    color: white; /* Text color */
+}
