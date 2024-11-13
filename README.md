@@ -189,34 +189,32 @@ Buttons were customised to their specific role and page layout. This is so that 
 
 
 <hr>
-<p align="right"><a href="#mindful-waters-foundation>Back To Top</a></p>
+<p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
 
 
 ## Built With
 
 ### Technologies and Languages
 
-HTML5
-CSS3
-GitHub
-Gitpod
+- HTML5
+- CSS3
+- GitHub
+- Gitpod
 
 ### Libraries and Frameworks
 
-Bootstrap 5.3.3
-Font Awesome
-Google Fonts
+- Bootstrap 5.3.3
+- Font Awesome
+- Google Fonts
 
 ### Tools and Programs
 
-Balsamiq
-Squoosh
-ChatGPT
-MS CoPilot
-GitHub CoPilot
+- Balsamiq
+- Squoosh
+- ChatGPT
 
 <hr>
-<p align="right"><a href="#mindful-waters-foundation>Back To Top</a></p>
+<p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
 
 ## Deployment
 
@@ -242,7 +240,39 @@ Additional information on the deployment process can be found on the official [G
 
 ## Testing
 
+### Validation
 
+#### CSS
+
+No errors found. 3 warnings arisen from importing google fonts which are outside of the scope of this project.
+
+![CSS Validation](/documentation/images/css-validation.png)
+
+#### HTML
+
+No errors found.
+
+![HTML Validation](/documentation/images/html-validation.png)
+
+### Lighthouse
+
+A Lighthouse audit was conducted using the tool on Chrome Devtools of each web page.
+
+Home page:
+
+![Home Page](/documentation/images/lighthouse-home-web.png)
+
+Mental Health Basics page:
+
+![HMental Health Basics Page](/documentation/images/lighthouse-mental-web.png)
+
+Stress Tips page:
+
+![tress Tips Page](/documentation/images/lighthouse-stress-web.png)
+
+Privacy page:
+
+![Privacy Page](/documentation/images/lighthouse-privacy-web.png)
 
 <hr>
 <p align="right"><a href="#mindful-waters-foundation">Back To Top</a></p>
