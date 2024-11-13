@@ -1,4 +1,9 @@
 /*Common mnetalhealth issues section*/
+.disclaimer {
+    color: red;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
 .card-bg-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/depression.webp) no-repeat center center/cover;
     color: white;
